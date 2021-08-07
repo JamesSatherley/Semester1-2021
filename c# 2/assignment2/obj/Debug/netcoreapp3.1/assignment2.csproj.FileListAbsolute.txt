@@ -1,0 +1,18 @@
+C:\Users\James - Desktop\source\repos\assignment2\assignment2\bin\Debug\netcoreapp3.1\assignment2.deps.json
+C:\Users\James - Desktop\source\repos\assignment2\assignment2\bin\Debug\netcoreapp3.1\assignment2.dll
+C:\Users\James - Desktop\source\repos\assignment2\assignment2\bin\Debug\netcoreapp3.1\assignment2.pdb
+C:\Users\James - Desktop\source\repos\assignment2\assignment2\obj\Debug\netcoreapp3.1\assignment2.csprojAssemblyReference.cache
+C:\Users\James - Desktop\source\repos\assignment2\assignment2\obj\Debug\netcoreapp3.1\assignment2.AssemblyInfoInputs.cache
+C:\Users\James - Desktop\source\repos\assignment2\assignment2\obj\Debug\netcoreapp3.1\assignment2.AssemblyInfo.cs
+C:\Users\James - Desktop\source\repos\assignment2\assignment2\obj\Debug\netcoreapp3.1\assignment2.csproj.CoreCompileInputs.cache
+C:\Users\James - Desktop\source\repos\assignment2\assignment2\obj\Debug\netcoreapp3.1\assignment2.dll
+C:\Users\James - Desktop\source\repos\assignment2\assignment2\obj\Debug\netcoreapp3.1\assignment2.pdb
+C:\Users\James - Desktop\Desktop\uni\2021\c# 2\assignment2\bin\Debug\netcoreapp3.1\assignment2.deps.json
+C:\Users\James - Desktop\Desktop\uni\2021\c# 2\assignment2\bin\Debug\netcoreapp3.1\assignment2.dll
+C:\Users\James - Desktop\Desktop\uni\2021\c# 2\assignment2\bin\Debug\netcoreapp3.1\assignment2.pdb
+C:\Users\James - Desktop\Desktop\uni\2021\c# 2\assignment2\obj\Debug\netcoreapp3.1\assignment2.csprojAssemblyReference.cache
+C:\Users\James - Desktop\Desktop\uni\2021\c# 2\assignment2\obj\Debug\netcoreapp3.1\assignment2.AssemblyInfoInputs.cache
+C:\Users\James - Desktop\Desktop\uni\2021\c# 2\assignment2\obj\Debug\netcoreapp3.1\assignment2.AssemblyInfo.cs
+C:\Users\James - Desktop\Desktop\uni\2021\c# 2\assignment2\obj\Debug\netcoreapp3.1\assignment2.csproj.CoreCompileInputs.cache
+C:\Users\James - Desktop\Desktop\uni\2021\c# 2\assignment2\obj\Debug\netcoreapp3.1\assignment2.dll
+C:\Users\James - Desktop\Desktop\uni\2021\c# 2\assignment2\obj\Debug\netcoreapp3.1\assignment2.pdb

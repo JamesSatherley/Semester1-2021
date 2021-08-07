@@ -1,0 +1,1 @@
+I understand that Task 2 was denying access to the database, for the life of me, i cannot understand how or why to grant the needed permissions

@@ -1,0 +1,27 @@
+package nz.ac.massey.cs.pp.tutorial6.id19040618;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.lang.reflect.Method;
+import java.util.List;
+
+public class Object2HTMLConverter {
+	void print(List data,Class type,File output) 
+	{
+		String output_file = "<hmtl></html>";
+		while (data.isEmpty() == false) {
+			Method method = type.getMethod("getFirst_Name", new Class[] {});
+			data.remove(0);
+		}
+		
+		try {
+			FileWriter typer = new FileWriter(output);
+			typer.write(output_file);
+			typer.close();
+			
+		} catch (IOException error) {
+			System.out.println("Error in file outputing, here is error: " + error);
+		}
+	}
+}

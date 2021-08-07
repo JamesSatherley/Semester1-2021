@@ -1,0 +1,7 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT count( ?death ) WHERE 
+{ 
+    ?person dbo:deathDate ?death .
+    FILTER EXISTS{ ?person dbo:deathDate ?death} . 
+} 

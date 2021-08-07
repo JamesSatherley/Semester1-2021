@@ -1,0 +1,7 @@
+PREFIX dbo: <http://dbpedia.org/ontology/weight>
+
+SELECT ?weight WHERE 
+{ 
+    ?weight dbo:weight ?weight . 
+    FILTER (?weight < 20) . 
+} 

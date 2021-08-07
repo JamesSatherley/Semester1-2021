@@ -1,0 +1,9 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX : <http://dbpedia.org/resource/>
+
+SELECT ?person WHERE 
+{ 
+    ?person dbo:birthPlace :London . 
+    ?person dbo:birthDate ?birth . 
+    FILTER (?birth < "1900-01-01"^^xsd:date) . 
+} 

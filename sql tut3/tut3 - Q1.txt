@@ -1,0 +1,3 @@
+The first subquery gathers current employees as they do not have end dates so it will be null
+The second subquery finds how long the employee has been at the University
+The closing query groups each employee by their emp_id and outputs their total payment for the year (in a sum with other employees with the same id)

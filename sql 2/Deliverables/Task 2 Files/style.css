@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Karla;
+    src: url(karla/Karla-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: Karla;
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    background-color: rgb(252, 252, 252);
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 20px, 1px 1px 20px #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.center h1{
+    font-size: 20px;
+    font-family: Karla;
+    text-align:center;
+    color: rgb(22, 22, 22);
+    padding: 0px;
+    margin: 5px 0px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+input[type=submit]:hover {
+    background-color: #000;
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=time], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#tbl {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tbl td, #tbl th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tbl tr:nth-child(even){background-color: #f2f2f2;}
+
+#tbl tr:hover {background-color: #ddd;}
+
+#tbl th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #242424;
+    color: white;
+}

@@ -1,0 +1,19 @@
+1. Return the titles of all movies starring both Tom Hanks and Bonnie Hunt.
+
+MATCH (tom:Person {name:"Tom Hanks"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(coActors:Person {name: "Bonnie Hunt"}) RETURN m.title
+
+2. Return the titles of the movies acted by Tom Hanks which are reviewed by Jessica Thompson.
+
+MATCH (tom:Person {name:"Tom Hanks"})-[:ACTED_IN]->(m)<-[:REVIEWED]-(reviewer:Person {name: "Jessica Thompson"}) RETURN m.title
+
+3. Return the names and year of birth of all actors who were born before 1960 and have acted together with Tom Hanks, ordered by their ages.
+
+MATCH (tom:Person {name:"Tom Hanks"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(coActors:Person) WHERE coActors.born < 1960 RETURN coActors.born, coActors.name ORDER BY coActors.born
+
+4. Return the names of the actors who were born before 1980 and have acted with Tom Hanks in a move released this millenium.
+
+MATCH (tom:Person {name:"Tom Hanks"})-[:ACTED_IN]->(m)<-[:ACTED_IN]-(coActors:Person) WHERE coActors.born < 1980 AND m.released >= 2000 RETURN coActors.name
+
+5. Return all nodes on the shortest paths between movies starring Tom Cruise and movies starring Tom Hanks.
+
+MATCH (cruise:Person {name:"Tom Cruise"})-[:ACTED_IN]->(cruiseMovies), (hanks:Person {name:"Tom Hanks"})-[:ACTED_IN]->(hanksMovies), ps = shortestPath((cruiseMovies)-[*]-(hanksMovies)) RETURN ps

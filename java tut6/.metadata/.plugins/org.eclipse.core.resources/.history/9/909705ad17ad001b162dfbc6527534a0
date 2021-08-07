@@ -1,0 +1,18 @@
+package nz.ac.massey.cs.pp.tutorial6.id19040618;
+
+import java.io.File;
+import java.util.List;
+
+public class StudentReader {
+	public static List<Student> fetchStudents(File input)
+	{
+		
+		
+		return null;
+	}
+
+	public static List<Student> fetchStudents(File input) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

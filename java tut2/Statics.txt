@@ -1,0 +1,13 @@
+What is the point of the static blocks in the Spray and Wasp classes?
+
+ - The code in a static block is executed before the class is used once allowing initialization and images to load, also meaning you do not need an object to use a static member
+ - Static fields are shared by all objects of the class, effectively like a global variable. In the context of Spray and Wasp statics are used to define "global" like variables like MAX_X and MAX_Y
+ - which allows them to be referenced elsewhere.
+
+Why are the initialiseSpray and initialiseWasp static methods not included in the static blocks?
+
+ - Code in a static block is executed before the class is used once, thus initialising Wasp and Spray
+
+Why are the above static methods not included in the constructor instead?
+
+ - So the files can be initialised from Exterminator with a give width and height value.
