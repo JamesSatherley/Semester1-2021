@@ -1,0 +1,42 @@
+C:\Users\James\source\repos\assignment3\assignment3\bin\Debug\assignment3.exe.config
+C:\Users\James\source\repos\assignment3\assignment3\bin\Debug\assignment3.exe
+C:\Users\James\source\repos\assignment3\assignment3\bin\Debug\assignment3.pdb
+C:\Users\James\source\repos\assignment3\assignment3\obj\Debug\assignment3.csprojAssemblyReference.cache
+C:\Users\James\source\repos\assignment3\assignment3\obj\Debug\assignment3.Properties.Resources.resources
+C:\Users\James\source\repos\assignment3\assignment3\obj\Debug\assignment3.csproj.GenerateResource.cache
+C:\Users\James\source\repos\assignment3\assignment3\obj\Debug\assignment3.csproj.CoreCompileInputs.cache
+C:\Users\James\source\repos\assignment3\assignment3\obj\Debug\assignment3.exe
+C:\Users\James\source\repos\assignment3\assignment3\obj\Debug\assignment3.pdb
+C:\Users\James\source\repos\assignment3\assignment3\obj\Debug\assignment3.Main.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\bin\Debug\assignment3.exe.config
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\bin\Debug\assignment3.exe
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\bin\Debug\assignment3.pdb
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.csprojAssemblyReference.cache
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.load.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.Main.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.Properties.Resources.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.csproj.GenerateResource.cache
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.csproj.CoreCompileInputs.cache
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.exe
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.pdb
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.save.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.AddOrRemovePlayer.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.AddorRemoveTeam.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.Sign.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\jhadw\assignment3\obj\Debug\assignment3.Charts.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\bin\Debug\assignment3.exe.config
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\bin\Debug\assignment3.exe
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\bin\Debug\assignment3.pdb
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.csprojAssemblyReference.cache
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.AddOrRemovePlayer.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.AddorRemoveTeam.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.Charts.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.Load.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.Main.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.Properties.Resources.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.Save.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.Sign.resources
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.csproj.GenerateResource.cache
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.csproj.CoreCompileInputs.cache
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.exe
+C:\Users\James - Desktop\Desktop\uni\2021\c# 3\assignment code\assignment3\obj\Debug\assignment3.pdb
