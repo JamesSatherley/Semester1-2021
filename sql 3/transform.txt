@@ -1,0 +1,23 @@
+let $a := doc("transform.xml")
+for $b in $a/db/books/row
+
+let $d := doc("transform.xml")/db
+
+let $availables := 
+    for $ol in $d/onloan/row[bid=$b/bid]
+    for $library in $d/libraries/row[lid=$ol/lid]
+    return if ($ol/loaned="FALSE")
+    then <available>TRUE</available>
+    else <available>FALSE</available>
+    
+let $libraries := 
+    for $ol in $d/onloan/row[bid=$b/bid]
+    for $library in $d/libraries/row[lid=$ol/lid]
+    return <library>{$library/lid}{$library/name}{$library/phone}{$availables[1]}</library>
+    
+    return <book>
+        {$b/bid}
+        {$b/title}
+        {$b/author}
+        {$b/year}
+        {$libraries}</book>

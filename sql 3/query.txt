@@ -1,0 +1,10 @@
+xquery version "3.1";
+
+for $a in doc("books.xml")//books/book[.//library/available='TRUE']
+
+return    <Data>
+    Title: {$a/title/text()}
+    Author: {$a/author/text()}
+    Year: {$a/year/text()}
+    Library: {string-join($a/library/name, ', ')}
+</Data>

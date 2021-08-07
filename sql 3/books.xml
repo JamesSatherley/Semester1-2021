@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE books [
+        <!ELEMENT books (book)*>
+        <!ELEMENT book (bid|title|author|year|library)*>
+        <!ELEMENT bid (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT library (lid|name|phone|available)*>
+        <!ELEMENT lid (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT phone (#PCDATA)>
+        <!ELEMENT available (#PCDATA)>
+        ]>
+<books>
+    <book>
+        <bid>b323</bid>
+        <title>To Mock a Mockingbird</title>
+        <author>Richard Smullyan</author>
+        <year>1985</year>
+        <library>
+            <lid>s282</lid>
+            <name>Albany Library</name>
+            <phone>555-1234</phone>
+            <available>FALSE</available>
+        </library>
+        <library>
+            <lid>s521</lid>
+            <name>Manawatu Library</name>
+            <phone>555-6543</phone>
+            <available>TRUE</available>
+        </library>
+    </book>
+
+    <book>
+        <bid>b333</bid>
+        <title>Alice's Adventures in Wonderland</title>
+        <author>Lewis Carroll</author>
+        <year>1965</year>
+        <library>
+            <lid>s521</lid>
+            <name>Manawatu Library</name>
+            <phone>555-6543</phone>
+            <available>TRUE</available>
+        </library>
+        <library>
+            <lid>s282</lid>
+            <name>Albany Library</name>
+            <phone>555-1234</phone>
+            <available>TRUE</available>
+        </library>
+    </book>
+
+    <book>
+        <bid>b312</bid>
+        <title>How to Bake Pi</title>
+        <author>Eugenia</author>
+        <year>2015</year>
+        <library>
+            <lid>s282</lid>
+            <name>Albany Library</name>
+            <phone>555-1234</phone>
+            <available>TRUE</available>
+        </library>
+    </book>
+</books>

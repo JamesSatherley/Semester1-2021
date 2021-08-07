@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE db [
+        <!ELEMENT db (books|libraries|onloan)*>
+        <!ELEMENT books (row)*>
+        <!ELEMENT row (bid|title|author|year|lid|name|phone|loaned)*>
+        <!ELEMENT bid (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT libraries (row)*>
+        <!ELEMENT lid (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT phone (#PCDATA)>
+        <!ELEMENT onloan (row)*>
+        <!ELEMENT loaned (#PCDATA)>
+        ]>
+
+<db>
+    <books>
+        <row>
+            <bid>b232</bid>
+            <title>To Mock a Mockingbird</title>
+            <author>Richard Smullyan</author>
+            <year>1985</year>
+        </row>
+
+        <row>
+            <bid>b233</bid>
+            <title>Alice's Adventures in Wonderland</title>
+            <author>Lewis Carroll</author>
+            <year>1965</year>
+        </row>
+
+        <row>
+            <bid>b212</bid>
+            <title>How to Bake Pi</title>
+            <author>Eugenia</author>
+            <year>2015</year>
+        </row>
+    </books>
+
+    <libraries>
+        <row>
+            <lid>s282</lid>
+            <name>Albany Library</name>
+            <phone>555-1234</phone>
+        </row>
+
+        <row>
+            <lid>s521</lid>
+            <name>Manawatu Library</name>
+            <phone>555-6543</phone>
+        </row>
+    </libraries>
+
+    <onloan>
+        <row>
+            <bid>b232</bid>
+            <lid>s282</lid>
+            <loaned>TRUE</loaned>
+        </row>
+
+        <row>
+            <bid>b233</bid>
+            <lid>s521</lid>
+            <loaned>FALSE</loaned>
+        </row>
+
+        <row>
+            <bid>b233</bid>
+            <lid>s282</lid>
+            <loaned>FALSE</loaned>
+        </row>
+
+        <row>
+            <bid>b212</bid>
+            <lid>s282</lid>
+            <loaned>FALSE</loaned>
+        </row>
+    </onloan>
+</db>
